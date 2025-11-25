@@ -1,2 +1,2 @@
-# nanosid.github.io
-Personal website
+# Hello there!
+I am a Ph. D. candidate in Electrical and Computer Engineering at Rochester Institute of Technology (RIT). My research in the field of wireless communications is focused on developing ideas that can facilitate fair, robust and secure coexistence of 5G networks with competing wireless protocols such as Wi-Fi and incumbent services such as radio astronomy systems. So far, I have developed a coexistence solution that allows 5G and Wi-Fi networks to transmit concurrently without creating any harmful effects on one another. My work has been published in multiple peer-reviewed venues including the top-ranked IEEE Transactions on Information Forensics and Security. I ultimately aim to develop a universal coexistence solution for harmonious wireless communications in heterogeneous scenarios with various emerging protocols. 
