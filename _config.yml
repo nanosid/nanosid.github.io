@@ -1,0 +1,39 @@
+title: Siddharth Dongre
+description: Wireless Security | Adversarial Modeling | Secure Communications | Coexistence
+url: https://sdongre.com
+baseurl: ''
+markdown: kramdown
+theme: null
+plugins: []
+collections:
+  publications:
+    output: false
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
+nav:
+- title: Home
+  url: /
+- title: Publications
+  url: /publications/
+- title: Teaching
+  url: /teaching/
+- title: News
+  url: /news/
+# - title: Service
+#   url: /service/
+# - title: Grants
+#   url: /grants/
+# - title: Talks
+#   url: /talks/
+contact:
+  email: sid.dongre7@gmail.com
+  phone: (585) 404-8870
+cv_url: /assets/cv/SDongre_CV.pdf
+social:
+  scholar: https://scholar.google.com/citations?user=iHi2FnQAAAAJ
+  orcid: https://orcid.org/0000-0002-1727-3967
+  github: https://github.com/nanosid
+  linkedin: https://www.linkedin.com/in/siddharth-dongre-377b87148

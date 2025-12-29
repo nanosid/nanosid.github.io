@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+<article>
+  <h1 class="h1">{{ page.title }}</h1>
+  <div class="post-meta">{{ page.date | date: "%B %d, %Y" }}{% if page.venue %} · {{ page.venue }}{% endif %}{% if page.acceptance_rate %} · Acceptance rate: {{ page.acceptance_rate }}{% endif %}</div>
+  <hr/>
+  {{ content }}
+</article>
