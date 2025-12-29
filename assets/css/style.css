@@ -46,6 +46,14 @@ main{padding:28px 0 36px;}
 
 .headshot{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:10px;} 
 .headshot__box{width:100%;aspect-ratio:3/4;border-radius:10px;background:repeating-linear-gradient(135deg,#f5f8ff,#f5f8ff 12px,#ffffff 12px,#ffffff 24px);border:1px dashed #b6ccff;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--muted);padding:14px;font-size:0.95rem;} 
+.headshot__img{
+  width:100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display:block;
+  border-radius:10px;
+  border:1px solid var(--line);
+}
 
 .card{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:16px 16px;} 
 .badges{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 0;} 

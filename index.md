@@ -7,11 +7,16 @@ description: "Portfolio of Siddharth Dongre - wireless security, adversarial mod
 
 <div class="grid">
   <aside class="headshot">
+    <img class="headshot__img"
+       src="{{ '/assets/img/SDongre.jpg' | relative_url }}"
+       alt="Siddharth Dongre headshot">
+  </aside>
+  <!-- <aside class="headshot">
     <div class="headshot__box">
       Headshot placeholder<br/>
       <span style="font-size:0.9rem;">Replace later with your photo (3:4 portrait).</span>
     </div>
-  </aside>
+  </aside> -->
 
   <section>
     <h1 class="h1">Bio</h1>
@@ -41,7 +46,7 @@ description: "Portfolio of Siddharth Dongre - wireless security, adversarial mod
 </section>
 
 <h2 class="h2">Selected Publications</h2>
-<p class="lead">Edit which items appear here by toggling <code>featured: true</code> inside the corresponding file in <code>_publications/</code>.</p>
+<!-- <p class="lead">Edit which items appear here by toggling <code>featured: true</code> inside the corresponding file in <code>_publications/</code>.</p> -->
 
 {% assign featured = site.publications | where: "featured", true | sort: "year" | reverse %}
 {% for p in featured limit:3 %}
