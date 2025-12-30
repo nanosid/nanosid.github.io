@@ -1,48 +1,9 @@
-<!-- <header class="site-header">
-  <div class="container header-inner">
-    <div class="brand">
-      <a class="brand__name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <div class="brand__tagline">Wireless Communications · Secure Coexistence · Adversarial Modeling</div>
-    </div>
-
-    <nav class="nav" aria-label="Primary">
-      <div class="social" aria-label="External links">
-        <a class="social__link" href="{{ site.social.scholar }}" target="_blank" rel="noopener">Scholar</a>
-        <a class="social__link" href="{{ site.social.orcid }}" target="_blank" rel="noopener">ORCID</a>
-        <a class="social__link" href="{{ site.social.github }}" target="_blank" rel="noopener">GitHub</a>
-        <a class="social__link" href="{{ site.social.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
-          <a class="social__icon" href="{{ site.social.scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar">
-            <img src="{{ '/assets/icons/scholar.svg' | relative_url }}" alt="Google Scholar" />
-          </a>
-
-          <a class="social__icon" href="{{ site.social.orcid }}" target="_blank" rel="noopener" aria-label="ORCID">
-            <img src="{{ '/assets/icons/orcid.svg' | relative_url }}" alt="ORCID" />
-          </a>
-
-          <a class="social__icon" href="{{ site.social.github }}" target="_blank" rel="noopener" aria-label="GitHub">
-            <img src="{{ '/assets/icons/github.svg' | relative_url }}" alt="GitHub" />
-          </a>
-
-          <a class="social__icon" href="{{ site.social.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn">
-            <img src="{{ '/assets/icons/linkedin.svg' | relative_url }}" alt="LinkedIn" />
-          </a>
-      </div>
-
-      {% for item in site.nav %}
-        <a class="nav__link {% if page.url == item.url %}is-active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-      {% endfor %}
-      <a class="nav__button" href="{{ site.cv_url | relative_url }}" target="_blank" rel="noopener">Download CV</a>
-    </nav>
-  </div>
-</header> -->
-
 <header class="site-header">
   <div class="container header-inner">
 
     <div class="header-top">
       <div class="brand">
         <a class="brand__name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-        <div class="brand__tagline">Wireless Communications · Secure Coexistence · Adversarial Modeling</div>
       </div>
 
       <div class="social header-social" aria-label="External links">
@@ -61,7 +22,7 @@
       </div>
     </div>
 
-    <nav class="nav header-nav" aria-label="Primary">
+    <nav class="header-nav" aria-label="Navigation">
       {% for item in site.nav %}
         <a class="nav__link{% if page.url == item.url %} is-active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
       {% endfor %}

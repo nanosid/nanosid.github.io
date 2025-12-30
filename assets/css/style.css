@@ -225,8 +225,8 @@ main {
 }
 
 .headshot {
-  border: 1px solid var(--line);
-  background: var(--card);
+  border: 1px solid transparent;
+  background: transparent;
   border-radius: 12px;
   padding: 10px;
 }
