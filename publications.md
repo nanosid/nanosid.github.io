@@ -9,7 +9,7 @@ description: "Journal papers, conference papers, workshops, and under-review man
 {% assign pubs = site.publications | sort: 'year' | reverse %}
 
 ## Journal Papers
-{% for p in pubs %}{% if p.category == "Journal Papers" %}
+{% for p in pubs %}{% if p.category == "Journal Articles" %}
 {% include pub_item.html citation=p.citation pdf=p.pdf doi=p.doi %}
 {% endif %}{% endfor %}
 
@@ -24,10 +24,11 @@ description: "Journal papers, conference papers, workshops, and under-review man
 {% endif %}{% endfor %}
 
 ## Under Review
-<div class="notice">Under-review items are shown without PDF/DOI buttons by default. Add links if/when preprints become available.</div>
+<!-- <div class="notice">Under-review items are shown without PDF/DOI buttons by default. Add links if/when preprints become available.</div> -->
 
 {% for p in pubs %}{% if p.category == "Under Review" %}
-<div class="pub">
+<!-- <div class="pub">
   <div class="pub__cite">{{ p.citation }}</div>
-</div>
+</div> -->
+{% include pub_item.html citation=p.citation pdf=p.pdf doi=p.doi %}
 {% endif %}{% endfor %}

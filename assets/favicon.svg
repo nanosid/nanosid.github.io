@@ -1,12 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b3d91"/>
-      <stop offset="1" stop-color="#1357b8"/>
-    </linearGradient>
-  </defs>
-  <rect width="64" height="64" rx="14" fill="url(#g)"/>
-  <path d="M18 42c6-10 22-10 28 0" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
-  <path d="M22 34c5-7 15-7 20 0" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
-  <circle cx="32" cy="26" r="3" fill="#fff"/>
-</svg>
+<svg width="1406" height="1205" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" overflow="hidden"><g transform="translate(-440 -203)"><path d="M681 723C681 449.619 902.619 228 1176 228 1449.38 228 1671 449.619 1671 723 1671 996.381 1449.38 1218 1176 1218 902.619 1218 681 996.381 681 723Z" stroke="#0070C0" stroke-width="27.5" stroke-miterlimit="8" fill="#0070C0" fill-rule="evenodd"/><text fill="#FFFFFF" font-family="Aptos,Aptos_MSFontService,sans-serif" font-weight="400" font-size="573" transform="matrix(1 0 0 1 784.465 905)">SD</text></g></svg>
