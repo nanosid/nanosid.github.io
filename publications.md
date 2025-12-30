@@ -8,8 +8,8 @@ description: "Journal papers, conference papers, workshops, and under-review man
 
 {% assign pubs = site.publications | sort: 'year' | reverse %}
 
-## Journal Papers
-{% for p in pubs %}{% if p.category == "Journal Articles" %}
+## Journal Articles
+{% for p in pubs %}{% if p.category == "Journal Papers" %}
 {% include pub_item.html citation=p.citation pdf=p.pdf doi=p.doi %}
 {% endif %}{% endfor %}
 
